@@ -66,7 +66,7 @@ const Navbar = () => {
       </div>
 
       <div className="navbar-end flex gap-4">
-      <label class="flex items-center cursor-pointer">
+      <label className="flex items-center cursor-pointer">
         <input
           type="checkbox"
           className="toggle" // Add other DaisyUI toggle classes as needed e.g., toggle-primary, toggle-lg
@@ -108,7 +108,7 @@ const Navbar = () => {
             </div>
           </div>
 
-      ) : (<><Link to="/login" className="btn">Log In</Link><Link to="/register" className="btn btn-primary">Register</Link></> 
+      ) : (<><Link to="/login" className="btn">Log In</Link></> 
       )
     }
       </div>

@@ -40,7 +40,7 @@ const Login = () => {
 
   return (
     <form onSubmit={handleLogin}> {/* Added onSubmit handler */}
-      <fieldset className="fieldset p-4 w-4/12 mx-auto my-8">
+      <fieldset className="fieldset p-4 md:w-4/12 w-11/12 mx-auto my-8">
         <legend className="text-3xl font-bold text-center">Login</legend>
 
         <label className="label">Email</label>
